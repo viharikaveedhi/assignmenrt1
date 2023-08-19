@@ -1,0 +1,10 @@
+Number1=0
+Number2=1
+LastNumber=50
+print(Number1,end=" ")
+print(Number2,end=" ")
+for i in range(LastNumber+1):
+    sum=Number1+Number2
+    Number1=Number2
+    Number2=sum
+    print (sum,end=" ")
